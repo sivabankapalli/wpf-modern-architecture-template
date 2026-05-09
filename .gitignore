@@ -1,0 +1,79 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+## Ignore Visual Studio temporary files, build results, and user files
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
+bin/
+obj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# NuGet
+*.nupkg
+packages/
+
+# OS files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Linux
+*~
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish
+publish/
+
+# Backup files
+*.bak
+*.tmp
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# dotnet tool restore
+.tools/
+
+# AppInsights local logs (if added later)
+*.ai.log
+
+# MSIX / packaging (future)
+AppPackages/
+BundleArtifacts/
+
+# Local config overrides
+appsettings.Development.json

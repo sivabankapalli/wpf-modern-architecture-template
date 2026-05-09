@@ -1,0 +1,11 @@
+﻿<Window x:Class="MyApp.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Modern WPF" Height="200" Width="400">
+
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="{Binding UserName}" FontSize="20" Margin="0,0,0,10"/>
+        <Button Content="Load User" Command="{Binding LoadCommand}" Width="120"/>
+    </StackPanel>
+
+</Window>
